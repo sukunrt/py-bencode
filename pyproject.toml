@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "py-bencode"
+version = "0.0.1"
+description = "Python bencode library written in C"
+authors = [
+    {name = "sukun", email = "sukunrt@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.9"
+license = {text = "MIT"}
